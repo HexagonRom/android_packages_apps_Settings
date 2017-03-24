@@ -62,6 +62,8 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.hex.preference.CustomSeekBarPreference;
 
+import net.margaritov.preference.colorpicker.ColorPickerPreference;
+
 public class SmartbarSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
     private ListPreference mSmartBarContext;
@@ -76,6 +78,7 @@ public class SmartbarSettings extends SettingsPreferenceFragment implements
     private static final int MENU_RESET = Menu.FIRST;
     private static final int MENU_SAVE = Menu.FIRST + 1;
     private static final int MENU_RESTORE = Menu.FIRST + 2;
+    private static final int DEFAULT_TINT_COLOR = 0xFFFFFFFF;
 
     private static final int DIALOG_RESET_CONFIRM = 1;
     private static final int DIALOG_RESTORE_PROFILE = 2;
@@ -95,6 +98,8 @@ public class SmartbarSettings extends SettingsPreferenceFragment implements
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.smartbar_settings);
+        int intColor;
+        String hexColor;
 
         int contextVal = Settings.Secure.getIntForUser(getContentResolver(),
                 "smartbar_context_menu_mode", 0, UserHandle.USER_CURRENT);
