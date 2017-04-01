@@ -46,7 +46,7 @@
 
     <PreferenceScreen
         android:key="pixel_anim"
-        android:fragment="com.android.settings.aicp.PixelAnimDurationSettings"
+        android:fragment="com.android.settings.hex.PixelAnimDurationSettings"
         android:title="@string/pixel_anim_title"
         android:summary="@string/pixel_anim_summary"/>
 

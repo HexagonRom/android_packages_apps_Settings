@@ -270,6 +270,7 @@ public class SmartbarSettings extends SettingsPreferenceFragment implements
             int val = Integer.parseInt(((String) newValue).toString());
             Settings.Secure.putInt(getContentResolver(), "smartbar_button_animation_style",
                     val);
+            updateAnimDurationPref(val);
             return true;
         } else if (preference.equals(mImeActions)) {
             int val = Integer.parseInt(((String) newValue).toString());
@@ -301,6 +302,14 @@ public class SmartbarSettings extends SettingsPreferenceFragment implements
             return true;
         }
         return false;
+    }
+
+    public void updateAnimDurationPref(int buttonAnimVal) {
+       if (buttonAnimVal == 0 || buttonAnimVal == 1 || buttonAnimVal == 2) {
+           mPixel.setEnabled(false);
+       } else {
+           mPixel.setEnabled(true);
+       }
     }
 
     private void resetSmartbar() {
