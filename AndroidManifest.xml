@@ -3407,12 +3407,6 @@
             </intent-filter>
         </receiver>
 
-        <receiver android:name="com.android.settings.hex.util.OnBoot">
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED"/>
-            </intent-filter>
-        </receiver>
-
         <activity android:name=".applications.ProtectedAppsActivity"
                   android:label="@string/protected_apps"
                   android:excludeFromRecents="true"
