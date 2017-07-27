@@ -15,15 +15,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- About phone screen, HEXAGON device maintainer name -->
-    <string name="device_maintainer">デバイスメンテナ</string>
-    <string name="device_maintainers">デバイスメンテナ</string>
-
-    <!-- Aicp Extras -->
-    <string name="hexagonrom_settings">HEXAGON Extras</string>
-    <string name="summary_hex">ROMの詳細設定を開きます</string>
-    <string name="header_category_hexagonrom">個人設定</string>
-
     <!-- Turn on display when power connected; turn off display when power disconnected -->
     <string name="wake_when_plugged_or_unplugged_title">接続時にスリープ解除</string>
     <string name="wake_when_plugged_or_unplugged_summary">電源を接続または切断したときに画面を点灯する</string>
@@ -64,7 +55,7 @@
     <string name="density_category">解像度オプション</string>
 
     <!-- Color Picker -->
-    <string name="dialog_color_picker">カラーピッカー</string>
+    <string name="press_color_to_apply">下の表示色をタップすると設定します</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
