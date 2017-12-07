@@ -27,7 +27,7 @@
     <string name="hex_ota">Hexagon update</string>
     <!-- About phone screen, Hexagon version -->
     <string name="mod_version">Hexagon version</string>
-    <string name="hexagon_version">2.5</string>
+    <string name="hexagon_version">2.6</string>
 
     <!-- Strings for Dialog close button [CHAR LIMIT=20] -->
     <string name="dlg_close">Close</string>
