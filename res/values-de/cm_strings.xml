@@ -352,12 +352,58 @@
   <string name="hotstpot_inactivity_timeout_1_minute">1 Minute</string>
   <string name="hotstpot_inactivity_timeout_5_minutes">5 Minuten</string>
   <string name="hotstpot_inactivity_timeout_10_minutes">10 Minuten</string>
-  <string name="hotstpot_inactivity_timeout_never_summary_text">WLAN-Hotspot nie automatisch abschalten</string>
-  <string name="hotstpot_inactivity_timeout_summary_text">WLAN-Hotspot automatisch abschalten nach <xliff:g id="timeout">%1$s</xliff:g></string>
-  <!-- Wake on plug -->
-  <string name="wake_when_plugged_or_unplugged_title">Beim Einstecken aufwecken</string>
-  <string name="wake_when_plugged_or_unplugged_summary">Beim Anschließen oder Trennen einer Stromquelle den Bildschirm einschalten</string>
-  <!-- Heads-up -->
-  <string name="heads_up_notifications_enabled_title">Pop-up</string>
-  <string name="heads_up_notifications_enabled_summary">Wichtige Benachrichtigungen in einem kleinen, schwebenden Fenster anzeigen</string>
+  <string name="hotstpot_inactivity_timeout_never_summary_text">Mobiler WLAN-Hotspot wird niemals abgeschaltet</string>
+  <string name="hotstpot_inactivity_timeout_summary_text">Mobiler WLAN-Hotspot wird nach <xliff:g id="timeout">%1$s</xliff:g> abgeschaltet</string>
+  <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data_category_title">Mobilfunkdatenzugriff</string>
+  <string name="data_usage_app_restrict_wifi_category_title">WLAN-Datenzugriff</string>
+  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_data_title">Alle Mobilfunkdatenzugriffe deaktivieren</string>
+  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_data_summary">Jegliche Mobilfunkdatenzugriffe verhindern</string>
+  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_wifi_title">Alle WLAN-Datenzugriffe deaktivieren</string>
+  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_wifi_summary">Jegliche WLAN-Datenzugriffe verhindern</string>
+  <!-- Volume link notification -->
+  <string name="volume_link_notification_title">Gleiche Lautstärke für Klingelton und Benachrichtigungen</string>
+  <!-- Launch music player when headset is connected -->
+  <string name="headset_connect_player_title">Musik-App starten</string>
+  <string name="headset_connect_player_summary">Beim Anschließen eines Kopfhörers die Standard-Musik-App starten</string>
+  <!-- Update recovery -->
+  <string name="update_recovery_title">Recovery aktualisieren</string>
+  <string name="update_recovery_summary">Recovery bei Systemupdates aktualisieren</string>
+  <string name="update_recovery_on_warning">HINWEIS: Wenn diese Funktion aktiviert ist, wird Ihr installiertes Recovery-System durch das in der aktuellen Version des Betriebssystems ersetzt.\n\nIhr Recovery-System wird fortan bei Updates des Systems ebenfalls aktualisiert, damit die Kompatibilität mit zukünftigen Versionen gewährleistet ist.\n\nWollen Sie diese Funktion aktivieren?</string>
+  <string name="update_recovery_off_warning">ACHTUNG: Wenn diese Funktion deaktiviert ist, wird das installierte Recovery-System nicht zusammen mit dem Betriebssystem aktualisiert.\n\nZukünftige OS-Updates können unter Umständen nicht installiert werden, wenn veraltete oder benutzerdefinierte Recovery-Versionen vorliegen.\n\nMöchten Sie diese Funktion wirklich deaktivieren?</string>
+  <!-- Status bar - double tap to sleep -->
+  <string name="status_bar_double_tap_to_sleep_title">Standby durch doppeltes Tippen</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Doppelt auf die Statusleiste tippen, um das Display auszuschalten</string>
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> ist <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">aktiviert</string>
+  <string name="sim_disabled">deaktiviert</string>
+  <string name="sim_missing">defekt oder fehlt</string>
+  <string name="sim_enabler_need_disable_sim">SIM-Karte wird deaktiviert. Möchten Sie fortfahren?</string>
+  <string name="sim_enabler_will_disable_sim_title">Achtung</string>
+  <string name="sim_enabler_need_switch_data_service">Diese SIM-Karte wird deaktiviert und SIM-Karte <xliff:g id="slotid">%1$s</xliff:g> wird für Datendienste weiterverwendet. Sind Sie sicher, dass Sie fortfahren möchten?</string>
+  <string name="sim_enabler_airplane_on">Vorgang kann nicht im Flugmodus durchgeführt werden.</string>
+  <string name="sim_enabler_in_call">Vorgang kann nicht während eines Anrufs durchgeführt werden.</string>
+  <string name="sim_enabler_both_inactive">Es können nicht alle SIM-Karten deaktiviert werden.</string>
+  <string name="sim_enabler_enabling">Aktivieren\u2026</string>
+  <string name="sim_enabler_disabling">Deaktivieren\u2026</string>
+  <string name="sub_activate_success">SIM-Karte aktiviert.</string>
+  <string name="sub_activate_failed">Aktivierung fehlgeschlagen.</string>
+  <string name="sub_deactivate_success">SIM-Karte deaktiviert.</string>
+  <string name="sub_deactivate_failed">Deaktivierung fehlgeschlagen.</string>
+  <!-- About phone settings screen, setting option dialog title to show regulatory information [CHAR LIMIT=25] -->
+  <!-- SAR information -->
+  <string name="maximum_head_level">Kopf: %1$s W/kg</string>
+  <string name="maximum_body_level">Körper: %1$s W/kg</string>
+  <!-- IC Codes -->
+  <string name="ic_code_model">Modell: %1$s</string>
+  <string name="ic_code_full">IC: %1$s</string>
+  <!-- Label for settings shortcut: carrier selection -->
+  <string name="shortcut_carrier_title">Netzbetreiber</string>
+  <!-- Burn in protection -->
+  <string name="burnin_protection_title">Einbrennschutz</string>
+  <string name="burnin_protection_summary">Statisch angezeigte Elemente periodisch bewegen, um übermäßigen Bildschirmverschleiß in diesem Bereich zu vermeiden</string>
 </resources>

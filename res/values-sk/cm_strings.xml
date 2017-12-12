@@ -214,6 +214,7 @@
   <string name="app_ops_allowed_count">Povolené <xliff:g id="count" example="2 times">%s</xliff:g></string>
   <string name="app_ops_ignored_count">Zakázané <xliff:g id="count" example="2 times">%s</xliff:g></string>
   <string name="app_ops_both_count">Povolené <xliff:g id="count">%1$s</xliff:g>, zakázané <xliff:g id="count">%2$s</xliff:g></string>
+  <string name="app_ops_no_blockable_permissions">Na blokovanie nie sú k dispozícii žiadne oprávnenia</string>
   <!-- App ops menu options -->
   <string name="app_ops_show_user_apps">Zobraziť používateľské aplikácie</string>
   <string name="app_ops_show_system_apps">Zobraziť vstavané aplikácie</string>
@@ -356,12 +357,58 @@
   <string name="hotstpot_inactivity_timeout_1_minute">1 minúta</string>
   <string name="hotstpot_inactivity_timeout_5_minutes">5 minút</string>
   <string name="hotstpot_inactivity_timeout_10_minutes">10 minút</string>
-  <string name="hotstpot_inactivity_timeout_never_summary_text">Žiadny časový limit prenosného hotspotu Wi\u2011Fi</string>
-  <string name="hotstpot_inactivity_timeout_summary_text">Časový limit prenosného hotspotu Wi\u2011Fi je <xliff:g id="timeout">%1$s</xliff:g></string>
-  <!-- Wake on plug -->
-  <string name="wake_when_plugged_or_unplugged_title">Prebudiť po pripojení</string>
-  <string name="wake_when_plugged_or_unplugged_summary">Zapnúť obrazovku pri pripojení alebo odpojení nabíjačky</string>
-  <!-- Heads-up -->
-  <string name="heads_up_notifications_enabled_title">Plávajúce upozornenia</string>
-  <string name="heads_up_notifications_enabled_summary">Zobraziť prioritné oznámenia v malom plávajúcom okne</string>
+  <string name="hotstpot_inactivity_timeout_never_summary_text">Prenosný Wi\u2011Fi hotspot nemá žiadny časový limit</string>
+  <string name="hotstpot_inactivity_timeout_summary_text">Prenosný Wi\u2011Fi hotspot vyprší po <xliff:g id="timeout">%1$s </xliff:g></string>
+  <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data_category_title">Mobilné dátové pripojenie</string>
+  <string name="data_usage_app_restrict_wifi_category_title">Wi-Fi dátové pripojenie</string>
+  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_data_title">Zakázať mobilné dátové pripojenie</string>
+  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_data_summary">Zabrániť akékoľvek dátovému pripojeniu cez mobilné siete</string>
+  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_wifi_title">Zakázať Wi-Fi dátové pripojenie</string>
+  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_wifi_summary">Zabrániť akékoľvek dátovému pripojeniu cez Wi-Fi siete</string>
+  <!-- Volume link notification -->
+  <string name="volume_link_notification_title">Prepojiť hlasitosti zvonenia a oznámení</string>
+  <!-- Launch music player when headset is connected -->
+  <string name="headset_connect_player_title">Spustiť aplikáciu na prehrávanie hudby</string>
+  <string name="headset_connect_player_summary">Spustiť predvolenú aplikáciu na prehrávanie hudby po pripojení slúchadiel</string>
+  <!-- Update recovery -->
+  <string name="update_recovery_title">Aktualizovať recovery</string>
+  <string name="update_recovery_summary">Aktualizovať recovery so systémovými aktualizáciami</string>
+  <string name="update_recovery_on_warning">UPOZORNENIE: Ak je táto funkcia povolená, vaša nainštalovaná recovery bude nahradená verziou, ktorá je súčasťou aktuálneho operačného systému.\n\nVaša recovery sa bude aktualizovať spolu so systémom, čím sa zaisťuje kompatibilita s budúcim verziami.\n\nChcete povoliť túto funkciu?</string>
+  <string name="update_recovery_off_warning">VAROVANIE: Ak je táto funkcia zakázaná, vaša nainštalovaná recovery nebude nahradená s aktualizáciami operačného systému.\n\nBudúce aktualizácie operačného systému sa nemusia nainštalovať kvôli zastaraným alebo vlastným verziám recovery.\n\nChcete zakázať túto funkciu?</string>
+  <!-- Status bar - double tap to sleep -->
+  <string name="status_bar_double_tap_to_sleep_title">Uspať dvojitým poklepaním</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Vypnúť displej dvojitým poklepaním na stavový riadok</string>
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> je <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">povolené</string>
+  <string name="sim_disabled">zakázaná</string>
+  <string name="sim_missing">chýbajúca alebo chybná</string>
+  <string name="sim_enabler_need_disable_sim">SIM karta bude deaktivovaná. Chcete pokračovať?</string>
+  <string name="sim_enabler_will_disable_sim_title">Varovanie</string>
+  <string name="sim_enabler_need_switch_data_service">Táto SIM karta bude zakázaná a SIM karta <xliff:g id="slotid">%1$s</xliff:g> bude použitá pre dátové služby. Naozaj chcete pokračovať?</string>
+  <string name="sim_enabler_airplane_on">Nepodarilo sa vykonať operáciu počas zapnutého režimu v lietadle.</string>
+  <string name="sim_enabler_in_call">Nepodarilo sa vykonať operáciu počas prebiehajúceho hovoru.</string>
+  <string name="sim_enabler_both_inactive">Nemožno zakázať všetky karty SIM</string>
+  <string name="sim_enabler_enabling">Aktivovanie\u2026</string>
+  <string name="sim_enabler_disabling">Deaktivovanie\u2026</string>
+  <string name="sub_activate_success">SIM bola aktivovaná.</string>
+  <string name="sub_activate_failed">Aktivácia zlyhala.</string>
+  <string name="sub_deactivate_success">SIM bola deaktivovaná.</string>
+  <string name="sub_deactivate_failed">Deaktivácia zlyhala.</string>
+  <!-- About phone settings screen, setting option dialog title to show regulatory information [CHAR LIMIT=25] -->
+  <!-- SAR information -->
+  <string name="maximum_head_level">Hlava: %1$s W/kg</string>
+  <string name="maximum_body_level">Telo: %1$s W/kg</string>
+  <!-- IC Codes -->
+  <string name="ic_code_model">Model: %1$s</string>
+  <string name="ic_code_full">IC: %1$s</string>
+  <!-- Label for settings shortcut: carrier selection -->
+  <string name="shortcut_carrier_title">Sieťoví operátori</string>
+  <!-- Burn in protection -->
+  <string name="burnin_protection_title">Ochrana nadmerného opotrebenia obrazovky</string>
+  <string name="burnin_protection_summary">Pravidelne presúvať položky, ktoré sú trvalo zobrazené na obrazovke, aby sa zabránilo nadmernému opotrebeniu obrazovky v tejto oblasti</string>
 </resources>

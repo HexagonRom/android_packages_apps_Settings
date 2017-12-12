@@ -146,6 +146,7 @@
   <string name="app_ops_allowed_count">Allowed <xliff:g id="count" example="2 times">%s</xliff:g></string>
   <string name="app_ops_ignored_count">Denied <xliff:g id="count" example="2 times">%s</xliff:g></string>
   <string name="app_ops_both_count">Allowed <xliff:g id="count">%1$s</xliff:g>, denied <xliff:g id="count">%2$s</xliff:g></string>
+  <string name="app_ops_no_blockable_permissions">No permissions available to block</string>
   <!-- App ops menu options -->
   <string name="app_ops_show_user_apps">Show user apps</string>
   <string name="app_ops_show_system_apps">Show built-in apps</string>
@@ -236,4 +237,68 @@
   <!-- Wake on plug -->
   <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
   <!-- Heads-up -->
+  <string name="heads_up_notifications_enabled_title">Heads-up</string>
+  <string name="heads_up_notifications_enabled_summary">Display priority notifications in a small floating window</string>
+  <!-- Tethering & portable hotspot other category -->
+  <string name="tethering_other_category_text">Other</string>
+  <!-- Wi-Fi tethering inactivity timeout -->
+  <string name="hotstpot_inactivity_timeout_text">Wi\u2011Fi hotspot timeout</string>
+  <string name="hotstpot_inactivity_timeout_never">Never</string>
+  <string name="hotstpot_inactivity_timeout_1_minute">1 minute</string>
+  <string name="hotstpot_inactivity_timeout_5_minutes">5 minutes</string>
+  <string name="hotstpot_inactivity_timeout_10_minutes">10 minutes</string>
+  <string name="hotstpot_inactivity_timeout_never_summary_text">Portable Wi\u2011Fi hotspot will never timeout</string>
+  <string name="hotstpot_inactivity_timeout_summary_text">Portable Wi\u2011Fi hotspot will timeout after <xliff:g id="timeout">%1$s</xliff:g></string>
+  <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data_category_title">Mobile data access</string>
+  <string name="data_usage_app_restrict_wifi_category_title">Wi\u2011Fi data access</string>
+  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_data_title">Disable all mobile data access</string>
+  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_data_summary">Prevent any use of data access via mobile networks</string>
+  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_wifi_title">Disable all Wi\u2011Fi data access</string>
+  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_wifi_summary">Prevent any use of data access via Wi\u2011Fi networks</string>
+  <!-- Volume link notification -->
+  <string name="volume_link_notification_title">Link ringtone &amp; notification volumes</string>
+  <!-- Launch music player when headset is connected -->
+  <string name="headset_connect_player_title">Launch music player</string>
+  <string name="headset_connect_player_summary">Launch the default music player when a headset is connected</string>
+  <!-- Update recovery -->
+  <string name="update_recovery_title">Update recovery</string>
+  <string name="update_recovery_summary">Update the built-in recovery with system updates</string>
+  <string name="update_recovery_on_warning">NOTICE: When this feature is enabled, your installed recovery will be replaced by one included with the current version of the running OS.\n\nYour recovery will be updated along with upgrades to your system, helping to ensure compatibility with future versions.\n\nWould you like to enable this feature?</string>
+  <string name="update_recovery_off_warning">WARNING: When this feature is disabled, your installed recovery will not be updated with OS upgrades.\n\nFuture OS updates may not install with outdated or custom recovery versions.\n\nDo you really want to disable this feature?</string>
+  <!-- Status bar - double tap to sleep -->
+  <string name="status_bar_double_tap_to_sleep_title">Double-tap to sleep</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Double-tap on the status bar to turn off the display</string>
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">enabled</string>
+  <string name="sim_disabled">disabled</string>
+  <string name="sim_missing">missing or faulty</string>
+  <string name="sim_enabler_need_disable_sim">SIM card will be deactivated. Do you want to continue?</string>
+  <string name="sim_enabler_will_disable_sim_title">Attention</string>
+  <string name="sim_enabler_need_switch_data_service">This SIM will be disabled and SIM <xliff:g id="slotid">%1$s</xliff:g> will be used for data services. Are you sure you want to continue?</string>
+  <string name="sim_enabler_airplane_on">Unable to perform the operation while aeroplane mode is on.</string>
+  <string name="sim_enabler_in_call">Unable to perform the operation while in call.</string>
+  <string name="sim_enabler_both_inactive">Can\'t disable all SIM cards</string>
+  <string name="sim_enabler_enabling">Activating\u2026</string>
+  <string name="sim_enabler_disabling">Deactivating\u2026</string>
+  <string name="sub_activate_success">SIM activated.</string>
+  <string name="sub_activate_failed">Activation failed.</string>
+  <string name="sub_deactivate_success">SIM deactivated.</string>
+  <string name="sub_deactivate_failed">Deactivation failed.</string>
+  <!-- About phone settings screen, setting option dialog title to show regulatory information [CHAR LIMIT=25] -->
+  <!-- SAR information -->
+  <string name="maximum_head_level">Head: %1$s W/kg</string>
+  <string name="maximum_body_level">Body: %1$s W/kg</string>
+  <!-- IC Codes -->
+  <string name="ic_code_model">Model: %1$s</string>
+  <string name="ic_code_full">IC: %1$s</string>
+  <!-- Label for settings shortcut: carrier selection -->
+  <string name="shortcut_carrier_title">Network operators</string>
+  <!-- Burn in protection -->
+  <string name="burnin_protection_title">Display burn-in protection</string>
+  <string name="burnin_protection_summary">Periodically move items that are permanently shown on screen to avoid excessive screen wear in that area</string>
 </resources>

@@ -354,12 +354,58 @@
   <string name="hotstpot_inactivity_timeout_1_minute">1 minuto</string>
   <string name="hotstpot_inactivity_timeout_5_minutes">5 minutos</string>
   <string name="hotstpot_inactivity_timeout_10_minutes">10 minutos</string>
-  <string name="hotstpot_inactivity_timeout_never_summary_text">Sen tempo de espera para o punto de acceso Wi\u2011Fi</string>
-  <string name="hotstpot_inactivity_timeout_summary_text">Tempo de espera para o punto de acceso Wi\u2011Fi despois de <xliff:g id="timeout">%1$s</xliff:g></string>
-  <!-- Wake on plug -->
-  <string name="wake_when_plugged_or_unplugged_title">Acender ao enchufar</string>
-  <string name="wake_when_plugged_or_unplugged_summary">Acende a pantalla ao contectarse ou desconectarse dunha fonte de enerxía</string>
-  <!-- Heads-up -->
-  <string name="heads_up_notifications_enabled_title">Notificacións emerxentes</string>
-  <string name="heads_up_notifications_enabled_summary">Amosar notificacions de prioridad nunha pequena xanela flotante</string>
+  <string name="hotstpot_inactivity_timeout_never_summary_text">O punto de aceso portable Wi\u2011Fi non se apagará nunca</string>
+  <string name="hotstpot_inactivity_timeout_summary_text">O punto de aceso portable Wi\u2011Fi apagaráse despois de <xliff:g id="timeout">%1$s</xliff:g></string>
+  <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data_category_title">Aceso aos datos móbiles</string>
+  <string name="data_usage_app_restrict_wifi_category_title">Acesso a datos Wi\u2011Fi</string>
+  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_data_title">Desabilitar todos os acesos de datos móbiles</string>
+  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_data_summary">Evitar calquer uso de aceso a dados através de redes móbiles</string>
+  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_wifi_title">Desabilitar todos os acesos dos datos no Wi\u2011Fi</string>
+  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_wifi_summary">Evitar calquer uso de aceso a datos através de redes Wi\u2011Fi</string>
+  <!-- Volume link notification -->
+  <string name="volume_link_notification_title">Asociar volumes de chamada e notificacións</string>
+  <!-- Launch music player when headset is connected -->
+  <string name="headset_connect_player_title">Iniciar aplicación de música</string>
+  <string name="headset_connect_player_summary">Iniciar a aplicación de música por defecto ao conectar auriculares</string>
+  <!-- Update recovery -->
+  <string name="update_recovery_title">Actualizar recovery</string>
+  <string name="update_recovery_summary">Actualizar o recovery coas actualizacións do sistema</string>
+  <string name="update_recovery_on_warning">AVISO: Se ten esta funcionalidade activada, a recuperación instalada substituirase por unha incluída na versión actual que se está a utilizar no sistema.\n\nA recuperación actualizarase xunta as actualizacións do sistema, para asegurar a compatibilidade coas versións futuras.\n\nQuere activar esta funcionalidade?</string>
+  <string name="update_recovery_off_warning">AVISO: Con esta funcionalidade desactivada, a recuperación instalada non se actualizará coas actualizacións do sistema.\n\nAs futuras actualizacións do sistema poderían non instalarse con versións de recuperación non actualizadas ou personalizadas.\n\nConfirma a desactivación desta funcionalidade?</string>
+  <!-- Status bar - double tap to sleep -->
+  <string name="status_bar_double_tap_to_sleep_title">Doble toque para apagar a pantalla</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Toque dúas veces na barra de estado para apagar a visualización</string>
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s </xliff:g> é <xliff:g id="status" example="disabled">%2$s </xliff:g></string>
+  <string name="sim_enabled">activado</string>
+  <string name="sim_disabled">desactivada</string>
+  <string name="sim_missing">ausente ou defectuosa</string>
+  <string name="sim_enabler_need_disable_sim">Desactivarase a tarxeta SIM. Quere continuar?</string>
+  <string name="sim_enabler_will_disable_sim_title">Atención</string>
+  <string name="sim_enabler_need_switch_data_service">Bloquearase este SIM e o SIM <xliff:g id="slotid">%1$s</xliff:g> empregarase para os servizos de datos. Tes a certeza de querer continuar?</string>
+  <string name="sim_enabler_airplane_on">Non se pode realizar a operación co modo avión activado.</string>
+  <string name="sim_enabler_in_call">Non se pode realizar a operación durante unha chamada.</string>
+  <string name="sim_enabler_both_inactive">Non se poden deshabilitar todas as tarxetas SIM</string>
+  <string name="sim_enabler_enabling">Activando\u2026</string>
+  <string name="sim_enabler_disabling">Desactivando\u2026</string>
+  <string name="sub_activate_success">SIM activada.</string>
+  <string name="sub_activate_failed">Fallou a activación.</string>
+  <string name="sub_deactivate_success">SIM desactivada.</string>
+  <string name="sub_deactivate_failed">Fallou a desactivación.</string>
+  <!-- About phone settings screen, setting option dialog title to show regulatory information [CHAR LIMIT=25] -->
+  <!-- SAR information -->
+  <string name="maximum_head_level">Testa: %1$s W/kg</string>
+  <string name="maximum_body_level">Corpo: %1$s W/kg</string>
+  <!-- IC Codes -->
+  <string name="ic_code_model">Modelo: %1$s</string>
+  <string name="ic_code_full">IC: %1$s</string>
+  <!-- Label for settings shortcut: carrier selection -->
+  <string name="shortcut_carrier_title">Operadores de rede</string>
+  <!-- Burn in protection -->
+  <string name="burnin_protection_title">Pantalla de protección contra queimaduras</string>
+  <string name="burnin_protection_summary">Mover periodicamente os arquivos que permanentemente aparece na pantalla para evitar o desgaste excesivo naquela área</string>
 </resources>

@@ -255,6 +255,10 @@
   <string name="unlock_scramble_pin_layout_summary">Acak tata letak PIN saat membuka perangkat</string>
   <!-- lock screen visualizer -->
   <string name="lockscreen_visualizer_title">Tampilkan visualisasi musik</string>
+  <!-- Lock screen cover art -->
+  <string name="lockscreen_media_art_title">Tampilkan sampul media</string>
+  <!-- Double tap to sleep on keyguard -->
+  <string name="double_tap_sleep_anywhere_title">Ketuk dua kali untuk tidur dimanapun</string>
   <!-- Protected apps lockpattern reset button -->
   <string name="lockpattern_reset_button">Atur kembali pola</string>
   <string name="lockpattern_settings_reset_summary">Masukkan email akun utama dan kata sandi yang terkait untuk mengatur kembali kunci pola</string>
@@ -355,10 +359,56 @@
   <string name="hotstpot_inactivity_timeout_10_minutes">10 menit</string>
   <string name="hotstpot_inactivity_timeout_never_summary_text">Portabel Wi\u2011Fi hotspot tidak pernah berakhir</string>
   <string name="hotstpot_inactivity_timeout_summary_text">Portabel Wi\u2011Fi hotspot akan berkahir setelah <xliff:g id="timeout">%1$s</xliff:g></string>
-  <!-- Wake on plug -->
-  <string name="wake_when_plugged_or_unplugged_title">Bangun saat pengisi daya di pasang</string>
-  <string name="wake_when_plugged_or_unplugged_summary">Aktifkan layar ketika menghubungkan atau melepaskan pengisi daya</string>
-  <!-- Heads-up -->
-  <string name="heads_up_notifications_enabled_title">Notifikasi mengambang</string>
-  <string name="heads_up_notifications_enabled_summary">Menampilkan pemberitahuan prioritas dalam jendela kecil yang mengambang</string>
+  <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data_category_title">Akses data seluler</string>
+  <string name="data_usage_app_restrict_wifi_category_title">Akses data Wi\u2011Fi</string>
+  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_data_title">Nonaktifkan semua akses data seluler</string>
+  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_data_summary">Mencegah penggunaan akses data melalui jaringan seluler</string>
+  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_wifi_title">Matikan semua akses data Wi\u2011Fi</string>
+  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_wifi_summary">Mencegah penggunaan akses data melalui jaringan Wi\u2011Fi</string>
+  <!-- Volume link notification -->
+  <string name="volume_link_notification_title">Hubungkan volume nada dering &amp; pemberitahuan</string>
+  <!-- Launch music player when headset is connected -->
+  <string name="headset_connect_player_title">Buka pemutar musik</string>
+  <string name="headset_connect_player_summary">Buka pemutar musik bawaan saat headset tersambung</string>
+  <!-- Update recovery -->
+  <string name="update_recovery_title">Perbarui Recovery</string>
+  <string name="update_recovery_summary">Perbarui Recovery terintegrasi dengan pembaruan sistem</string>
+  <string name="update_recovery_on_warning">PERHATIAN: Jika fitur ini diaktifkan, recovery yang terpasang akan digantikan oleh salah satu yang disertakan dengan versi terbaru dari OS yang berjalan.\n\nRecovery akan diperbarui bersama dengan peningkatan sistem agar recovery tetap kompatibel dengan versi mendatang.\n\nApakah Anda ingin mengaktifkan fitur ini?</string>
+  <string name="update_recovery_off_warning">PERINGATAN: Jika fitur ini dinonaktifkan, pemulihan yang terinstal tidak akan diperbarui dengan peningkatan OS.\n\nPembaruan OS mendatang mungkin tidak dapat diinstal dengan versi pemulihan khusus atau versi pemulihan yang sudah usang.\n\nApakah Anda benar-benar ingin menonaktifkan fitur ini?</string>
+  <!-- Status bar - double tap to sleep -->
+  <string name="status_bar_double_tap_to_sleep_title">Ketuk dua kali untuk tidur</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Ketuk dua kali pada status bar untuk mematikan tampilan</string>
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s </xliff:g> adalah <xliff:g id="status" example="disabled">%2$s </xliff:g></string>
+  <string name="sim_enabled">dihidupkan</string>
+  <string name="sim_disabled">dinonaktifkan</string>
+  <string name="sim_missing">hilang atau rusak</string>
+  <string name="sim_enabler_need_disable_sim">Kartu SIM akan dinonaktifkan. Apakah Anda ingin melanjutkan?</string>
+  <string name="sim_enabler_will_disable_sim_title">Perhatian</string>
+  <string name="sim_enabler_need_switch_data_service">SIM ini akan dinonaktifkan dan SIM <xliff:g id="slotid">%1$s </xliff:g> akan digunakan untuk layanan data. Apakah Anda yakin ingin melanjutkan?</string>
+  <string name="sim_enabler_airplane_on">Tidak dapat melakukan operasi saat modus pesawat aktif.</string>
+  <string name="sim_enabler_in_call">Tidak dapat melakukan operasi saat dalam panggilan.</string>
+  <string name="sim_enabler_both_inactive">Tidak dapat menonaktifkan semua kartu SIM</string>
+  <string name="sim_enabler_enabling">Mengaktivasi\u2026</string>
+  <string name="sim_enabler_disabling">Menonaktifkan\u2026</string>
+  <string name="sub_activate_success">SIM diaktifkan.</string>
+  <string name="sub_activate_failed">Aktivasi gagal.</string>
+  <string name="sub_deactivate_success">SIM dinonaktifkan.</string>
+  <string name="sub_deactivate_failed">Penonaktifan gagal.</string>
+  <!-- About phone settings screen, setting option dialog title to show regulatory information [CHAR LIMIT=25] -->
+  <!-- SAR information -->
+  <string name="maximum_head_level">Kepala: %1$s W/kg</string>
+  <string name="maximum_body_level">Tubuh: %1$s W/kg</string>
+  <!-- IC Codes -->
+  <string name="ic_code_model">Model: %1$s</string>
+  <string name="ic_code_full">IC: %1$s</string>
+  <!-- Label for settings shortcut: carrier selection -->
+  <string name="shortcut_carrier_title">Operator jaringan</string>
+  <!-- Burn in protection -->
+  <string name="burnin_protection_title">Proteksi tampilan burn-in</string>
+  <string name="burnin_protection_summary">Secara berkala memindahkan item yang ditampilkan secara permanen pada layar untuk menghindari keausan layar yang berlebihan di daerah itu</string>
 </resources>

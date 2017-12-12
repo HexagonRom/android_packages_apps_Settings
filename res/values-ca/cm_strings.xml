@@ -212,6 +212,7 @@
   <string name="app_ops_allowed_count">Permès <xliff:g id="count" example="2 times">%s</xliff:g></string>
   <string name="app_ops_ignored_count">Denegat <xliff:g id="count" example="2 times">%s</xliff:g></string>
   <string name="app_ops_both_count">Permès <xliff:g id="count">%1$s</xliff:g>, denegat <xliff:g id="count">%2$s</xliff:g></string>
+  <string name="app_ops_no_blockable_permissions">No hi ha permisos disponibles per bloquejar</string>
   <!-- App ops menu options -->
   <string name="app_ops_show_user_apps">Mostra les aplicacions de l\'usuari</string>
   <string name="app_ops_show_system_apps">Mostra les aplicacions integrades</string>
@@ -394,4 +395,32 @@
   <!-- Status bar - double tap to sleep -->
   <string name="status_bar_double_tap_to_sleep_title">Pica dues vegades per posar en repòs</string>
   <string name="status_bar_double_tap_to_sleep_summary">Pica dues vegades a la barra d\'estat per apagar la pantalla</string>
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> està <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">activada</string>
+  <string name="sim_disabled">desactivada</string>
+  <string name="sim_missing">defectuosa o no hi és</string>
+  <string name="sim_enabler_need_disable_sim">La targeta SIM serà desactivada. Vols continuar?</string>
+  <string name="sim_enabler_will_disable_sim_title">Atenció</string>
+  <string name="sim_enabler_need_switch_data_service">Aquesta SIM serà deshabilitada i la SIM <xliff:g id="slotid">%1$s</xliff:g> es destinarà a serveis de dades. Estàs segur que vols continuar?</string>
+  <string name="sim_enabler_airplane_on">No es pot realitzar l\'operació mentre el mode avió està activat.</string>
+  <string name="sim_enabler_in_call">No es pot realitzar l\'operació durant una trucada.</string>
+  <string name="sim_enabler_both_inactive">No es pot deshabilitar totes les targetes SIM</string>
+  <string name="sim_enabler_enabling">S\'està activant\u2026</string>
+  <string name="sim_enabler_disabling">S\'està desactivant\u2026</string>
+  <string name="sub_activate_success">SIM activada.</string>
+  <string name="sub_activate_failed">L\'activació ha fallat.</string>
+  <string name="sub_deactivate_success">SIM desactivada.</string>
+  <string name="sub_deactivate_failed">La desactivació ha fallat.</string>
+  <!-- About phone settings screen, setting option dialog title to show regulatory information [CHAR LIMIT=25] -->
+  <!-- SAR information -->
+  <string name="maximum_head_level">Cap: %1$s W/kg</string>
+  <string name="maximum_body_level">Cos: %1$s W/kg</string>
+  <!-- IC Codes -->
+  <string name="ic_code_model">Model: %1$s</string>
+  <string name="ic_code_full">IC: %1$s</string>
+  <!-- Label for settings shortcut: carrier selection -->
+  <string name="shortcut_carrier_title">Operadors de xarxa</string>
+  <!-- Burn in protection -->
+  <string name="burnin_protection_title">Pantalla de protecció contra cremades</string>
+  <string name="burnin_protection_summary">Mou periòdicament els elements que permanentment apareixen a la pantalla, per evitar el desgast excessiu de la pantalla en aquesta àrea</string>
 </resources>

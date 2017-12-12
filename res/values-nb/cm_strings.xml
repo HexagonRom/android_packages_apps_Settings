@@ -345,7 +345,58 @@
   <string name="hotstpot_inactivity_timeout_1_minute">1 minutt</string>
   <string name="hotstpot_inactivity_timeout_5_minutes">5 minutter</string>
   <string name="hotstpot_inactivity_timeout_10_minutes">10 minutter</string>
-  <!-- Wake on plug -->
-  <string name="wake_when_plugged_or_unplugged_title">Våkne ved tilkobling av strøm</string>
-  <!-- Heads-up -->
+  <string name="hotstpot_inactivity_timeout_never_summary_text">Portabel Wi\u2011Fi hotspot vil aldri ha tidsavbrudd</string>
+  <string name="hotstpot_inactivity_timeout_summary_text">Portabel Wi\u2011Fi hotspot vil ha tidsavbrudd etter <xliff:g id="timeout">%1$s</xliff:g></string>
+  <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data_category_title">Mobildata tilgang</string>
+  <string name="data_usage_app_restrict_wifi_category_title">Wi\u2011Fi data tilgang</string>
+  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_data_title">Deaktivere all mobildata tilgang</string>
+  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_data_summary">Blokker all bruk av datatilgang via mobildata</string>
+  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_wifi_title">Deaktivere all Wi\u2011Fi data tilgang</string>
+  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_wifi_summary">Blokker all bruk av datatilgang via Wi-Fi nettverk</string>
+  <!-- Volume link notification -->
+  <string name="volume_link_notification_title">Koble sammen ringevolum &amp; varselvolum</string>
+  <!-- Launch music player when headset is connected -->
+  <string name="headset_connect_player_title">Start musikkspilleren</string>
+  <string name="headset_connect_player_summary">Starte standard-appen for musikkavspilling når hodetelefoner kobles til</string>
+  <!-- Update recovery -->
+  <string name="update_recovery_title">Oppdater gjenoppretting</string>
+  <string name="update_recovery_summary">Oppdater den innebygde gjenopprettingen med systemoppdateringer</string>
+  <string name="update_recovery_on_warning">Merknad: Når denne funksjonen er oppdatert, vil din installerte recovery bli overskrivd av en som er inkludert i siste versjon av det kjørende OS.\n\nDin recvovery vil bli oppdatert sammen med systemoppdateringer, for å hjelpe deg med å beholde kompabiliteten med fremtidige versjoner.\n\nVil du aktivere denne funksjonen?</string>
+  <string name="update_recovery_off_warning">Advarsel: Når denne funksjonen er deaktivert, vil ikke din nåværende recovery bli oppdatert med systemoppdateringer.\n\nFremtidige systemoppdateringer vil kanskje ikke installeres på en gammel eller egendefinert recovery.\n\nVil du deaktivere denne funksjonen?</string>
+  <!-- Status bar - double tap to sleep -->
+  <string name="status_bar_double_tap_to_sleep_title">Dobbelttrykk for å slukke skjermen</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Dobbelttrykk på statuslinjen for å slå av skjermen</string>
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> er <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">aktivert</string>
+  <string name="sim_disabled">deaktivert</string>
+  <string name="sim_missing">manglende eller feil</string>
+  <string name="sim_enabler_need_disable_sim">SIM-kortet vil bli deaktivert. Vil du fortsette?</string>
+  <string name="sim_enabler_will_disable_sim_title">Oppmerksomhet</string>
+  <string name="sim_enabler_need_switch_data_service">Dette SIM-kortet vil bli deaktivert og SIM-kort <xliff:g id="slotid">%1$s</xliff:g> vil bli brukt til data servicer. Er du sikker på at du vil fortsette?</string>
+  <string name="sim_enabler_airplane_on">Kan ikke utføre operasjonen mens Flymodus er på.</string>
+  <string name="sim_enabler_in_call">Kan ikke utføre operasjonen i samtalen.</string>
+  <string name="sim_enabler_both_inactive">Kan ikke deaktivere alle SIM-kort</string>
+  <string name="sim_enabler_enabling">Aktiverer\u2026</string>
+  <string name="sim_enabler_disabling">Deaktiverer\u2026</string>
+  <string name="sub_activate_success">SIM aktivert.</string>
+  <string name="sub_activate_failed">Aktivering mislyktes.</string>
+  <string name="sub_deactivate_success">SIM deaktivert.</string>
+  <string name="sub_deactivate_failed">Deaktivering mislyktes.</string>
+  <!-- About phone settings screen, setting option dialog title to show regulatory information [CHAR LIMIT=25] -->
+  <!-- SAR information -->
+  <string name="maximum_head_level">Hode: %1$s W/kg</string>
+  <string name="maximum_body_level">Innhold: %1$s W/kg</string>
+  <!-- IC Codes -->
+  <string name="ic_code_model">Modell: %1$s</string>
+  <string name="ic_code_full">IC: %1$s</string>
+  <!-- Label for settings shortcut: carrier selection -->
+  <string name="shortcut_carrier_title">Nettverksoperatører</string>
+  <!-- Burn in protection -->
+  <string name="burnin_protection_title">Innbrenningsbeskyttelse</string>
+  <string name="burnin_protection_summary">Flytter jevnlig elementer som vises vedvarende på skjermen for å unngå at noe brennes fast i skjermen</string>
 </resources>

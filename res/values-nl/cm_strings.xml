@@ -212,6 +212,7 @@
   <string name="app_ops_allowed_count"><xliff:g id="count" example="2 times">%s</xliff:g> toegestaan</string>
   <string name="app_ops_ignored_count"><xliff:g id="count" example="2 times">%s</xliff:g> geweigerd</string>
   <string name="app_ops_both_count"><xliff:g id="count">%1$s</xliff:g> toegestaan, <xliff:g id="count">%2$s</xliff:g> geweigerd</string>
+  <string name="app_ops_no_blockable_permissions">Geen machtigingen beschikbaar om te blokkeren</string>
   <!-- App ops menu options -->
   <string name="app_ops_show_user_apps">Gebruikersapps tonen</string>
   <string name="app_ops_show_system_apps">Ingebouwde apps tonen</string>
@@ -351,11 +352,57 @@
   <string name="hotstpot_inactivity_timeout_5_minutes">5 minuten</string>
   <string name="hotstpot_inactivity_timeout_10_minutes">10 minuten</string>
   <string name="hotstpot_inactivity_timeout_never_summary_text">Draagbare wifi-hotspot zal nooit op standby gaan</string>
-  <string name="hotstpot_inactivity_timeout_summary_text">Draagbare wifi-hotspot gaat op stand-by na <xliff:g id="timeout">%1$s</xliff:g></string>
-  <!-- Wake on plug -->
-  <string name="wake_when_plugged_or_unplugged_title">Ontwaken door lader</string>
-  <string name="wake_when_plugged_or_unplugged_summary">Scherm aan bij het aansluiten of loskoppelen van een lader</string>
-  <!-- Heads-up -->
-  <string name="heads_up_notifications_enabled_title">Heads-up</string>
-  <string name="heads_up_notifications_enabled_summary">Prioriteitsmeldingen weergeven in klein zwevend venster</string>
+  <string name="hotstpot_inactivity_timeout_summary_text">Draagbare wifi-hotspot zal op standby gaan na <xliff:g id="timeout">%1$s</xliff:g></string>
+  <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data_category_title">Toegang tot mobiele gegevens</string>
+  <string name="data_usage_app_restrict_wifi_category_title">Toegang tot wifi</string>
+  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_data_title">Mobiel gegevensgebruik uitschakelen</string>
+  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_data_summary">Blokkeert elk gebruik van gegevens via het mobiele netwerk</string>
+  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_wifi_title">Wifi-gebruik uitschakelen</string>
+  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_wifi_summary">Blokkeert elk gebruik van gegevens via wifi-netwerken</string>
+  <!-- Volume link notification -->
+  <string name="volume_link_notification_title">Volume beltoon en meldingen koppelen</string>
+  <!-- Launch music player when headset is connected -->
+  <string name="headset_connect_player_title">Muziek-app openen</string>
+  <string name="headset_connect_player_summary">Standaardmuziek-app openen bij aansluiten headset</string>
+  <!-- Update recovery -->
+  <string name="update_recovery_title">Recovery bijwerken</string>
+  <string name="update_recovery_summary">Ingebouwde recovery bijwerken met systeemupdates</string>
+  <string name="update_recovery_on_warning">Let op: als deze functie ingeschakeld is, wordt uw recovery vervangen door de recovery die met uw huidige besturingssysteem geleverd wordt.\n\nUw recovery wordt met systeemupdates ook bijgewerkt om compatibiliteit met toekomstige versies te garanderen.\n\nWilt u deze functie inschakelen?</string>
+  <string name="update_recovery_off_warning">Let op: als deze functie is uitgeschakeld, wordt uw recovery niet bijgewerkt bij systeemupdates.\n\nToekomstige systeemupdates kunnen wellicht niet geïnstalleerd worden op oude recovery-versies.\n\nWeet u zeker dat u deze functie wilt uitschakelen?</string>
+  <!-- Status bar - double tap to sleep -->
+  <string name="status_bar_double_tap_to_sleep_title">Dubbeltikken voor slaapstand</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Dubbeltikken op de statusbalk voor slaapstand</string>
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">ingeschakeld</string>
+  <string name="sim_disabled">uitgeschakeld</string>
+  <string name="sim_missing">afwezig of defect</string>
+  <string name="sim_enabler_need_disable_sim">Simkaart wordt uitgeschakeld? Wilt u doorgaan?</string>
+  <string name="sim_enabler_will_disable_sim_title">Let op</string>
+  <string name="sim_enabler_need_switch_data_service">Deze simkaart wordt uitgeschakeld en simkaart <xliff:g id="slotid">%1$s</xliff:g> zal worden gebruikt voor gegevensverbinding. Weet u zeker dat u wilt doorgaan?</string>
+  <string name="sim_enabler_airplane_on">Kan de bewerking niet uitvoeren in vliegtuigmodus.</string>
+  <string name="sim_enabler_in_call">Kan de bewerking niet uitvoeren tijdens gesprek.</string>
+  <string name="sim_enabler_both_inactive">Kan niet alle simkaarten uitschakelen</string>
+  <string name="sim_enabler_enabling">Inschakelen\u2026</string>
+  <string name="sim_enabler_disabling">Uitschakelen\u2026</string>
+  <string name="sub_activate_success">Simkaart ingeschakeld.</string>
+  <string name="sub_activate_failed">Inschakelen mislukt.</string>
+  <string name="sub_deactivate_success">Simkaart uitgeschakeld.</string>
+  <string name="sub_deactivate_failed">Uitschakelen mislukt.</string>
+  <!-- About phone settings screen, setting option dialog title to show regulatory information [CHAR LIMIT=25] -->
+  <!-- SAR information -->
+  <string name="maximum_head_level">Hoofd: %1$s W/kg</string>
+  <string name="maximum_body_level">Lichaam: %1$s W/kg</string>
+  <!-- IC Codes -->
+  <string name="ic_code_model">Model: %1$s</string>
+  <string name="ic_code_full">IC: %1$s</string>
+  <!-- Label for settings shortcut: carrier selection -->
+  <string name="shortcut_carrier_title">Netwerkproviders</string>
+  <!-- Burn in protection -->
+  <string name="burnin_protection_title">Bescherming tegen inbranden scherm</string>
+  <string name="burnin_protection_summary">Regelmatig items verplaatsen die permanent op het scherm te zien zijn om buitensporige schermslijtage in dat gebied te vermijden</string>
 </resources>

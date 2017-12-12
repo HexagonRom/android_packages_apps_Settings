@@ -218,7 +218,7 @@
   <string name="app_ops_allowed_count">Permitido <xliff:g id="count" example="2 times">%s</xliff:g></string>
   <string name="app_ops_ignored_count">Denegado <xliff:g id="count" example="2 times">%s</xliff:g></string>
   <string name="app_ops_both_count">Permitido <xliff:g id="count">%1$s</xliff:g>, denegado <xliff:g id="count">%2$s</xliff:g></string>
-
+  <string name="app_ops_no_blockable_permissions">No hay permisos disponibles para bloquear</string>
   <!-- App ops menu options -->
   <string name="app_ops_show_user_apps">Aplicaciones de usuario</string>
   <string name="app_ops_show_system_apps">Aplicaciones de sistema</string>
@@ -391,15 +391,55 @@
   <string name="wake_when_plugged_or_unplugged_summary">Enciende la pantalla cuando se conecta o desconecta un cargador</string>
 
   <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_data_category_title">Acceso a datos móviles</string>
-    <string name="data_usage_app_restrict_wifi_category_title">Acceso a datos Wi\u2011Fi</string>
-    <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
-    <string name="data_usage_app_restrict_all_data_title">Deshabilitar todo los accesos a datos móviles</string>
-    <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
-    <string name="data_usage_app_restrict_all_data_summary">Previene cualquier uso de datos a través de redes móviles</string>
-    <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
-    <string name="data_usage_app_restrict_all_wifi_title">Deshabilita el acceso a datos  a través de Wi\u2011Fi</string>
-    <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
-    <string name="data_usage_app_restrict_all_wifi_summary">Previene cualquier uso de datos a través de redes Wi\u2011Fi</string>
-
+  <string name="data_usage_app_restrict_data_category_title">Acceso a los datos del móvil</string>
+  <string name="data_usage_app_restrict_wifi_category_title">Acceso a los datos del Wi\u2011Fi</string>
+  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_data_title">Desactivar el acceso a los datos móviles</string>
+  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_data_summary">Evitar el uso de datos mediante la red móvil</string>
+  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_wifi_title">Desactivar el uso de datos mediante Wi\u2011Fi</string>
+  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_wifi_summary">Impedir el uso de datos mediante las redes Wi\u2011Fi</string>
+  <!-- Volume link notification -->
+  <string name="volume_link_notification_title">Enlazar volumen del tono de llamada y notificaciones</string>
+  <!-- Launch music player when headset is connected -->
+  <string name="headset_connect_player_title">Abrir el reproductor de música</string>
+  <string name="headset_connect_player_summary">Iniciar el reproductor de música predeterminado al conectar los auriculares</string>
+  <!-- Update recovery -->
+  <string name="update_recovery_title">Actualizar recovery</string>
+  <string name="update_recovery_summary">Actualizar recovery en conjunto con el sistema</string>
+  <string name="update_recovery_on_warning">AVISO: Con esta característica activada, el recovery instalado será reemplazado por uno incluido en la versión actual del sistema.\n\nEl recovery será actualizado junto con mejoras en el sistema, ayudando a garantizar la compatibilidad con versiones futuras.\n\n¿Quieres activar esta característica?</string>
+  <string name="update_recovery_off_warning">ADVERTENCIA: Con esta característica desactivada, el recovery instalado no se actualizará con las actualizaciones del sistema.\n\nVersiones futuras del sistema podrían no instalarse con un recovery no actualizado o no compatible.\n\n¿Deseas realmente desactivar esta característica?</string>
+  <!-- Status bar - double tap to sleep -->
+  <string name="status_bar_double_tap_to_sleep_title">Doble toque para apagar automáticamente</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Apagar la pantalla realizando un doble toque sobre la barra de estado</string>
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s </xliff:g> es <xliff:g id="status" example="disabled">%2$s </xliff:g></string>
+  <string name="sim_enabled">habilitada</string>
+  <string name="sim_disabled">desactivada</string>
+  <string name="sim_missing">ausente o defectuosa</string>
+  <string name="sim_enabler_need_disable_sim">La tarjeta SIM se desactivará. ¿Quieres continuar?</string>
+  <string name="sim_enabler_will_disable_sim_title">Atención</string>
+  <string name="sim_enabler_need_switch_data_service">Esta tarjeta SIM será desactivada y <xliff:g id="slotid">%1$s </xliff:g> y se utilizará para servicios de datos. ¿Estás seguro que deseas continuar?</string>
+  <string name="sim_enabler_airplane_on">No se puede realizar la operación mientras esté activado el modo avión.</string>
+  <string name="sim_enabler_in_call">No se puede realizar la operación mientras haya una llamada en curso.</string>
+  <string name="sim_enabler_both_inactive">Imposible desactivar todas las tarjetas SIM</string>
+  <string name="sim_enabler_enabling">Activando\u2026</string>
+  <string name="sim_enabler_disabling">Desactivando\u2026</string>
+  <string name="sub_activate_success">SIM activada.</string>
+  <string name="sub_activate_failed">Error de activación.</string>
+  <string name="sub_deactivate_success">SIM desactivada.</string>
+  <string name="sub_deactivate_failed">Error de desactivación.</string>
+  <!-- About phone settings screen, setting option dialog title to show regulatory information [CHAR LIMIT=25] -->
+  <!-- SAR information -->
+  <string name="maximum_head_level">Cabeza: %1$s W/kg</string>
+  <string name="maximum_body_level">Cuerpo: %1$s W/kg</string>
+  <!-- IC Codes -->
+  <string name="ic_code_model">Modelo: %1$s</string>
+  <string name="ic_code_full">IC: %1$s</string>
+  <!-- Label for settings shortcut: carrier selection -->
+  <string name="shortcut_carrier_title">Operadores de red</string>
+  <!-- Burn in protection -->
+  <string name="burnin_protection_title">Pantalla de protección contra quemaduras</string>
+  <string name="burnin_protection_summary">Mover periódicamente los elementos que permanentemente aparecen en la pantalla, para evitar el desgaste excesivo de la pantalla en esa área</string>
 </resources>

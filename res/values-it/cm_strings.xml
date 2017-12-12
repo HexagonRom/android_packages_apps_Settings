@@ -212,6 +212,7 @@
   <string name="app_ops_allowed_count">Consentito <xliff:g id="count" example="2 times">%s</xliff:g></string>
   <string name="app_ops_ignored_count">Negato <xliff:g id="count" example="2 times">%s</xliff:g></string>
   <string name="app_ops_both_count">Consentito <xliff:g id="count">%1$s</xliff:g>, negato <xliff:g id="count">%2$s</xliff:g></string>
+  <string name="app_ops_no_blockable_permissions">Nessun permesso bloccabile disponibile</string>
   <!-- App ops menu options -->
   <string name="app_ops_show_user_apps">Mostra app utente</string>
   <string name="app_ops_show_system_apps">Mostra app integrate</string>
@@ -354,12 +355,58 @@
   <string name="hotstpot_inactivity_timeout_1_minute">1 minuto</string>
   <string name="hotstpot_inactivity_timeout_5_minutes">5 minuti</string>
   <string name="hotstpot_inactivity_timeout_10_minutes">10 minuti</string>
-  <string name="hotstpot_inactivity_timeout_never_summary_text">Nessun timeout per l\'hotspot Wi\u2011Fi</string>
-  <string name="hotstpot_inactivity_timeout_summary_text">Timeout hotspot Wi\u2011Fi dopo <xliff:g id="timeout">%1$s</xliff:g></string>
-  <!-- Wake on plug -->
-  <string name="wake_when_plugged_or_unplugged_title">Risveglia al collegamento</string>
-  <string name="wake_when_plugged_or_unplugged_summary">Accendi lo schermo quando l\'alimentatore viene collegato o scollegato</string>
-  <!-- Heads-up -->
-  <string name="heads_up_notifications_enabled_title">Heads-up</string>
-  <string name="heads_up_notifications_enabled_summary">Visualizza le notifiche prioritarie in una piccola finestra fluttuante</string>
+  <string name="hotstpot_inactivity_timeout_never_summary_text">Hotspot Wi\u2011Fi portatile mai in timeout</string>
+  <string name="hotstpot_inactivity_timeout_summary_text">Timeout hotspot Wi\u2011Fi portatile dopo <xliff:g id="timeout">%1$s</xliff:g></string>
+  <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data_category_title">Accesso dati cellulare</string>
+  <string name="data_usage_app_restrict_wifi_category_title">Accesso dati Wi\u2011Fi</string>
+  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_data_title">Disattiva connessioni tramite dati cellulare</string>
+  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_data_summary">Impedisci qualsiasi connessione tramite reti cellulari</string>
+  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_wifi_title">Disabilita tutti gli accessi tramite Wi\u2011Fi</string>
+  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_wifi_summary">Impedisci qualsiasi connessione tramite reti Wi\u2011Fi</string>
+  <!-- Volume link notification -->
+  <string name="volume_link_notification_title">Collega volume suoneria &amp; notifiche</string>
+  <!-- Launch music player when headset is connected -->
+  <string name="headset_connect_player_title">Avvia il lettore musicale</string>
+  <string name="headset_connect_player_summary">Avvia il lettore musicale predefinito quando vengono connesse le cuffie</string>
+  <!-- Update recovery -->
+  <string name="update_recovery_title">Aggiorna recovery</string>
+  <string name="update_recovery_summary">Aggiorna la recovery integrata con gli aggiornamenti del sistema</string>
+  <string name="update_recovery_on_warning">AVVISO: Quando questa funzionalità è attiva, la recovery installata sarà sostituita da una inclusa con la versione corrente del sistema.\n\nLa vostra recovery attuale verrà aggiornata con gli aggiornamenti di sistema, contribuendo a garantire la compatibilità con le future versioni.\n\nAttivare questa funzione?</string>
+  <string name="update_recovery_off_warning">Attenzione: Quando questa funzionalità è disattivata, la recovery installata non verrà aggiornata con il sistema.\n\nFuturi aggiornamenti potrebbero non installarsi con recovery personalizzate o vecchie.\n\nDisattivare questa funzione?</string>
+  <!-- Status bar - double tap to sleep -->
+  <string name="status_bar_double_tap_to_sleep_title">Sospensione con doppio tocco</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Doppio tocco sulla barra di stato per spegnere il display</string>
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> è <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">attiva</string>
+  <string name="sim_disabled">disattivata</string>
+  <string name="sim_missing">mancante o difettosa</string>
+  <string name="sim_enabler_need_disable_sim">La scheda SIM sarà disattivata. Continuare?</string>
+  <string name="sim_enabler_will_disable_sim_title">Attenzione</string>
+  <string name="sim_enabler_need_switch_data_service">Questa SIM sarà disattivata e la SIM <xliff:g id="slotid">%1$s</xliff:g> sarà utilizzata per la connessione dati. Vuoi procedere?</string>
+  <string name="sim_enabler_airplane_on">Impossibile eseguire l\'operazione mentre è attivata la modalità aereo.</string>
+  <string name="sim_enabler_in_call">Impossibile eseguire l\'operazione mentre si è in chiamata.</string>
+  <string name="sim_enabler_both_inactive">Non è possibile disattivare tutte le schede SIM</string>
+  <string name="sim_enabler_enabling">Attivazione\u2026</string>
+  <string name="sim_enabler_disabling">Disattivazione\2026</string>
+  <string name="sub_activate_success">SIM attivata.</string>
+  <string name="sub_activate_failed">Attivazione fallita.</string>
+  <string name="sub_deactivate_success">SIM disattivata.</string>
+  <string name="sub_deactivate_failed">Disattivazione fallita.</string>
+  <!-- About phone settings screen, setting option dialog title to show regulatory information [CHAR LIMIT=25] -->
+  <!-- SAR information -->
+  <string name="maximum_head_level">Testa: %1$s W/kg</string>
+  <string name="maximum_body_level">Corpo: %1$s W/kg</string>
+  <!-- IC Codes -->
+  <string name="ic_code_model">Modello: %1$s</string>
+  <string name="ic_code_full">IC: %1$s</string>
+  <!-- Label for settings shortcut: carrier selection -->
+  <string name="shortcut_carrier_title">Operatori di rete</string>
+  <!-- Burn in protection -->
+  <string name="burnin_protection_title">Protezione schermo da burn-in</string>
+  <string name="burnin_protection_summary">Sposta periodicamente gli elementi che vengono visualizzati in modo permanente sullo schermo per evitare un\'usura eccessiva dello schermo in quella zona</string>
 </resources>

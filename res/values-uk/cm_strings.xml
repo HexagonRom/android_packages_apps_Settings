@@ -293,7 +293,61 @@
   <!-- Tethering & portable hotspot other category -->
   <!-- Wi-Fi tethering inactivity timeout -->
   <string name="hotstpot_inactivity_timeout_never">Ніколи</string>
-  <!-- Wake on plug -->
-  <string name="wake_when_plugged_or_unplugged_title">Екран прокидається при підключені</string>
-  <!-- Heads-up -->
+  <string name="hotstpot_inactivity_timeout_1_minute">1 хвилина</string>
+  <string name="hotstpot_inactivity_timeout_5_minutes">5 хвилин</string>
+  <string name="hotstpot_inactivity_timeout_10_minutes">10 хвилин</string>
+  <string name="hotstpot_inactivity_timeout_never_summary_text">Портативна Wi\u2011Fi точка доступу ніколи не буде вимикатися</string>
+  <string name="hotstpot_inactivity_timeout_summary_text">Портативну Wi\u2011Fi точку доступу буде вимкнено через <xliff:g id="timeout">%1$s </xliff:g></string>
+  <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data_category_title">Доступ до стільникових даних</string>
+  <string name="data_usage_app_restrict_wifi_category_title">Доступ до Wi\u2011Fi даних</string>
+  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_data_title">Вимкнути доступ до стільникових даних</string>
+  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_data_summary">Запобігти будь-яке використання доступу до даних за допомогою стільникових мереж</string>
+  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_wifi_title">Заборонити доступ через Wi\u2011Fi</string>
+  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_wifi_summary">Запобігти будь-яке використання доступу до даних за допомогою Wi\u2011Fi мереж</string>
+  <!-- Volume link notification -->
+  <string name="volume_link_notification_title">Зв’язати гучність дзвінка та сповіщень</string>
+  <!-- Launch music player when headset is connected -->
+  <string name="headset_connect_player_title">Запуск музичного плеєра</string>
+  <string name="headset_connect_player_summary">Запуск музичного програвача за замовчуванням, коли під\'єднана гарнітура</string>
+  <!-- Update recovery -->
+  <string name="update_recovery_title">Оновлення Recovery</string>
+  <string name="update_recovery_summary">Оновити вбудований Recovery з системними оновленнями</string>
+  <string name="update_recovery_on_warning">Примітка: Коли цю функцію ввімкнено, діюче Recovery буде замінено тим, що міститься у поточній версії ОС.\n\nРежим Recovery буде оновлюватись разом з оновленням вашої системи, допомагаючи забезпечити сумісність майбутніх версій.\n\nБажаєте увімкнути застосування цієї функції?</string>
+  <string name="update_recovery_off_warning">ПОПЕРЕДЖЕННЯ: Якщо цю функцію вимкнено, режим Recovery залишиться без змін.\n\nІснує можливість некоректного встановлення майбутніх версій ОС, у випадку використання застарілого чи кастомного Recovery.\n\nВи бажаєте відключити цю функцію?</string>
+  <!-- Status bar - double tap to sleep -->
+  <string name="status_bar_double_tap_to_sleep_title">Вимикати екран при подвійному натисканні</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Двічі натисніть на рядок стану, аби вимкнути екран</string>
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> — <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">увімкнено</string>
+  <string name="sim_disabled">вимкнено</string>
+  <string name="sim_missing">відсутній або несправний</string>
+  <string name="sim_enabler_need_disable_sim">SIM-карту буде деактивовано. Ви хочете продовжити?</string>
+  <string name="sim_enabler_will_disable_sim_title">Увага</string>
+  <string name="sim_enabler_need_switch_data_service">Цю SIM буде вимкнуто і SIM <xliff:g id="slotid">%1$s </xliff:g> буде використовуватися для передачі даних. Справді продовжити?</string>
+  <string name="sim_enabler_airplane_on">Не вдалося виконати операцію, коли увімкнено режим польоту.</string>
+  <string name="sim_enabler_in_call">Не вдалося виконати операцію під час виклику.</string>
+  <string name="sim_enabler_both_inactive">Не вдається вимкнути всі SIM-карти</string>
+  <string name="sim_enabler_enabling">Активація\u2026</string>
+  <string name="sim_enabler_disabling">Деактивація\u2026</string>
+  <string name="sub_activate_success">SIM активована.</string>
+  <string name="sub_activate_failed">Помилка активації.</string>
+  <string name="sub_deactivate_success">SIM деактивована.</string>
+  <string name="sub_deactivate_failed">Помилка деактивації.</string>
+  <!-- About phone settings screen, setting option dialog title to show regulatory information [CHAR LIMIT=25] -->
+  <!-- SAR information -->
+  <string name="maximum_head_level">Голова: %1$s Вт/кг</string>
+  <string name="maximum_body_level">Тіло: %1$s Вт/кг</string>
+  <!-- IC Codes -->
+  <string name="ic_code_model">Модель: %1$s</string>
+  <string name="ic_code_full">Код IC: %1$s</string>
+  <!-- Label for settings shortcut: carrier selection -->
+  <string name="shortcut_carrier_title">Оператори мережі</string>
+  <!-- Burn in protection -->
+  <string name="burnin_protection_title">Захист екрану від вигорання</string>
+  <string name="burnin_protection_summary">Періодично переміщати елементи, які постійно відображаються на екрані для уникнення надмірного зносу екрану в цій області</string>
 </resources>

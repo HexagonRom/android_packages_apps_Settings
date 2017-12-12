@@ -208,6 +208,7 @@
   <string name="app_ops_allowed_count"><xliff:g id="count" example="2 times">%s</xliff:g> אושרו</string>
   <string name="app_ops_ignored_count"><xliff:g id="count" example="2 times">%s</xliff:g> נחסמו</string>
   <string name="app_ops_both_count"><xliff:g id="count">%1$s</xliff:g> אושרו, <xliff:g id="count">%2$s</xliff:g> נחסמו</string>
+  <string name="app_ops_no_blockable_permissions">אין הרשאות זמינות לחסימה</string>
   <!-- App ops menu options -->
   <string name="app_ops_show_user_apps">הצג יישומי משתמש</string>
   <string name="app_ops_show_system_apps">הצג יישומים מובנים</string>
@@ -333,7 +334,58 @@
   <string name="hotstpot_inactivity_timeout_1_minute">דקה אחת</string>
   <string name="hotstpot_inactivity_timeout_5_minutes">5 דקות</string>
   <string name="hotstpot_inactivity_timeout_10_minutes">10 דקות</string>
-  <!-- Wake on plug -->
-  <string name="wake_when_plugged_or_unplugged_title">הער מסך בעת חיבור</string>
-  <!-- Heads-up -->
+  <string name="hotstpot_inactivity_timeout_never_summary_text">נקוד רשת ציבורית ניידת של Wi\u2011Fi לא תיכבה לעולם מעצמה</string>
+  <string name="hotstpot_inactivity_timeout_summary_text">נקודת רשת ציבורית ניידת של Wi\u2011Fi תיכבה לאחר <xliff:g id="timeout">%1$s</xliff:g></string>
+  <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data_category_title">גישה לאינטרנט סלולרי</string>
+  <string name="data_usage_app_restrict_wifi_category_title">גישה ל־Wi\u2011Fi</string>
+  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_data_title">השבת כל גישה לנתונים סלולרים</string>
+  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_data_summary">מנע כל שימוש בגישה לאינטרנט דרך הרשתות סלולריות</string>
+  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_wifi_title">השבת כל גישה ל־Wi\u2011Fi</string>
+  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_wifi_summary">מנע כל שימוש בגישה לאינטרנט דרך ה־Wi\u2011Fi</string>
+  <!-- Volume link notification -->
+  <string name="volume_link_notification_title">קשר את עוצמות הרינגטון וההתראות</string>
+  <!-- Launch music player when headset is connected -->
+  <string name="headset_connect_player_title">הפעל נגן מוזיקה</string>
+  <string name="headset_connect_player_summary">הפעל את נגן המוזיקה המוגדר כברירת המחדל בעת חיבור אוזניות</string>
+  <!-- Update recovery -->
+  <string name="update_recovery_title">עדכון ה־Recovery</string>
+  <string name="update_recovery_summary">עדכן את ה־Recovery יחד עם עדכוני המערכת</string>
+  <string name="update_recovery_on_warning">שים לב: כשתכונה זו מופעלת, השחזור הנוכחי שלך יוחלף בשחזור הכלול בגרסה הנוכחית של מערכת ההפעלה שלך.\n\nהשחזור הנוכחי שלך יתעדכן יחד עם עדכונים למערכת שלך, כדי להבטיח תאימות עם גרסאות עתידיות.\n\nהאם להפעיל את תכונה זו?</string>
+  <string name="update_recovery_off_warning">אזהרה: כשתכונה זו מושבתת, השחזור הנוכחי לא יתעדכן עם עדכוני מערכת.\n\nעדכוני מערכת עתידיים לא יותקנו עם גרסה לא עדכנית של השחזור.\n\nהאם להשבית תכונה זו?</string>
+  <!-- Status bar - double tap to sleep -->
+  <string name="status_bar_double_tap_to_sleep_title">הקשה כפולה לכיבוי מסך</string>
+  <string name="status_bar_double_tap_to_sleep_summary">הקש פעמיים בשורת המצב כדי לכבות את המסך</string>
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">מאופשר</string>
+  <string name="sim_disabled">מושבת</string>
+  <string name="sim_missing">חסר או פגום</string>
+  <string name="sim_enabler_need_disable_sim">כרטיס ה-SIM יפסיק לפעול. האם ברצונך להמשיך?</string>
+  <string name="sim_enabler_will_disable_sim_title">שים לב</string>
+  <string name="sim_enabler_need_switch_data_service">SIM זה יהפוך ללא זמין ו-SIM <xliff:g id="slotid">%1$s</xliff:g> ישמש לשירותי נתונים. בטוח שברצונך להמשיך?</string>
+  <string name="sim_enabler_airplane_on">אין אפשרות לבצע את הפעולה במצב טיסה פעיל.</string>
+  <string name="sim_enabler_in_call">אין אפשרות לבצע את הפעולה בזמן השיחה.</string>
+  <string name="sim_enabler_both_inactive">אין אפשרות להשבית את כל כרטיסי ה-SIM</string>
+  <string name="sim_enabler_enabling">מפעיל\u2026</string>
+  <string name="sim_enabler_disabling">מכבה\u2026</string>
+  <string name="sub_activate_success">SIM הופעל.</string>
+  <string name="sub_activate_failed">הפעלה נכשלה.</string>
+  <string name="sub_deactivate_success">SIM בוטל.</string>
+  <string name="sub_deactivate_failed">ביטול הפעלה נכשלה.</string>
+  <!-- About phone settings screen, setting option dialog title to show regulatory information [CHAR LIMIT=25] -->
+  <!-- SAR information -->
+  <string name="maximum_head_level">ראש: %1$s  W/kg</string>
+  <string name="maximum_body_level">גוף: %1$s W/kg</string>
+  <!-- IC Codes -->
+  <string name="ic_code_model">דגם: %1$s</string>
+  <string name="ic_code_full">IC: %1$s</string>
+  <!-- Label for settings shortcut: carrier selection -->
+  <string name="shortcut_carrier_title">ספקי סלולר</string>
+  <!-- Burn in protection -->
+  <string name="burnin_protection_title">הגנת צריבת מסך</string>
+  <string name="burnin_protection_summary">מזיז מדי פעם פריטים קבועים במסך בשביל למנוע צריבת פיקסלים במסך</string>
 </resources>

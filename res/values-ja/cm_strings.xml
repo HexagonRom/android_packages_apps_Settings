@@ -211,6 +211,7 @@
   <string name="app_ops_allowed_count"><xliff:g id="count" example="2 times">%s</xliff:g>許可しました</string>
   <string name="app_ops_ignored_count"><xliff:g id="count" example="2 times">%s</xliff:g>拒否しました</string>
   <string name="app_ops_both_count"><xliff:g id="count">%1$s</xliff:g>許可、<xliff:g id="count">%2$s</xliff:g>拒否しました</string>
+  <string name="app_ops_no_blockable_permissions">ブロックする権限がありません</string>
   <!-- App ops menu options -->
   <string name="app_ops_show_user_apps">ユーザーアプリを表示</string>
   <string name="app_ops_show_system_apps">内蔵アプリを表示</string>
@@ -355,10 +356,56 @@
   <string name="hotstpot_inactivity_timeout_10_minutes">10分</string>
   <string name="hotstpot_inactivity_timeout_never_summary_text">ポータブルWi\u2011Fiアクセスポイントはタイムアウトしません</string>
   <string name="hotstpot_inactivity_timeout_summary_text">ポータブルWi\u2011Fiアクセスポイントは<xliff:g id="timeout">%1$s</xliff:g>後にタイムアウトします</string>
-  <!-- Wake on plug -->
-  <string name="wake_when_plugged_or_unplugged_title">接続時にスリープ解除</string>
-  <string name="wake_when_plugged_or_unplugged_summary">電源を接続または切断したときに画面を点灯する</string>
-  <!-- Heads-up -->
-  <string name="heads_up_notifications_enabled_title">ヘッドアップ</string>
-  <string name="heads_up_notifications_enabled_summary">小さなフローティングウインドウに重要な通知を表示する</string>
+  <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data_category_title">モバイルデータ通信</string>
+  <string name="data_usage_app_restrict_wifi_category_title">Wi-Fi データ通信</string>
+  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_data_title">モバイルデータ通信をすべて無効化する</string>
+  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_data_summary">すべてのモバイルデータ通信を無効化します</string>
+  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_wifi_title">Wi-Fi データ通信をすべて無効化する</string>
+  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_wifi_summary">すべての Wi-Fi データ通信を無効化します</string>
+  <!-- Volume link notification -->
+  <string name="volume_link_notification_title">着信と通知の音量をリンク</string>
+  <!-- Launch music player when headset is connected -->
+  <string name="headset_connect_player_title">音楽プレイヤーの起動</string>
+  <string name="headset_connect_player_summary">ヘッドセット接続時にデフォルトの音楽アプリを起動する</string>
+  <!-- Update recovery -->
+  <string name="update_recovery_title">リカバリーを更新</string>
+  <string name="update_recovery_summary">システム更新の際、ビルトインリカバリーを更新します</string>
+  <string name="update_recovery_on_warning">注意: この機能を有効にすると、インストールされているリカバリーは実行しているOSの現在のバージョンに含まれるリカバリーに変更されます。\n\nシステムのアップグレードと同時にリカバリーがアップデートされるので、今後のバージョンとの互換性の確保に繋がります。\n\nこの機能を有効にしますか？</string>
+  <string name="update_recovery_off_warning">警告: この機能を無効にすると、インストールされているリカバリーはOSのアップグレードと同時にはアップデートされなくなります。\n\nカスタムリカバリーバージョンが古いと、今後のOSアップデートがインストールできなくなる恐れがあります。\n\nこの機能を本当に無効にしますか？</string>
+  <!-- Status bar - double tap to sleep -->
+  <string name="status_bar_double_tap_to_sleep_title">ダブルタップしてスリープ</string>
+  <string name="status_bar_double_tap_to_sleep_summary">ステータスバーをダブルタップしてディスプレイを消灯します</string>
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g>は<xliff:g id="status" example="disabled">%2$s</xliff:g>です</string>
+  <string name="sim_enabled">有効</string>
+  <string name="sim_disabled">無効です</string>
+  <string name="sim_missing">挿入されていないか、問題があります</string>
+  <string name="sim_enabler_need_disable_sim">SIMカードはアクティベート解除されます。続けますか？</string>
+  <string name="sim_enabler_will_disable_sim_title">注意</string>
+  <string name="sim_enabler_need_switch_data_service">このSIMは無効になり、SIM <xliff:g id="slotid">%1$s</xliff:g>がデータサービスに使用されます。続けてもよろしいですか？</string>
+  <string name="sim_enabler_airplane_on">機内モードがONになっている間はこの操作を実行することはできません。</string>
+  <string name="sim_enabler_in_call">通話中はこの操作を実行することはできません。</string>
+  <string name="sim_enabler_both_inactive">すべてのSIMカードを無効にはできません</string>
+  <string name="sim_enabler_enabling">アクティベート中...</string>
+  <string name="sim_enabler_disabling">アクティベート解除中\u2026</string>
+  <string name="sub_activate_success">SIMをアクティベートしました。</string>
+  <string name="sub_activate_failed">アクティベートできませんでした。</string>
+  <string name="sub_deactivate_success">SIMをアクティベート解除しました。</string>
+  <string name="sub_deactivate_failed">アクティベート解除できませんでした。</string>
+  <!-- About phone settings screen, setting option dialog title to show regulatory information [CHAR LIMIT=25] -->
+  <!-- SAR information -->
+  <string name="maximum_head_level">頭部: %1$s W/kg</string>
+  <string name="maximum_body_level">身体: %1$s W/kg</string>
+  <!-- IC Codes -->
+  <string name="ic_code_model">モデル: %1$s</string>
+  <string name="ic_code_full">IC: %1$s</string>
+  <!-- Label for settings shortcut: carrier selection -->
+  <string name="shortcut_carrier_title">通信事業者</string>
+  <!-- Burn in protection -->
+  <string name="burnin_protection_title">画面の焼き付き保護</string>
+  <string name="burnin_protection_summary">画面の焼き付きを防ぐため、常時表示されているアイテムを定期的に移動します</string>
 </resources>
