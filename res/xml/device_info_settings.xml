@@ -17,6 +17,10 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:lineage="http://schemas.android.com/apk/res/lineageos.platform"
         android:title="@string/about_settings">
+	<!-- Custom Logo Settings-->
+    	<PreferenceScreen android:layout="@layout/settings_logo" android:key="settings_logo">
+        	<intent android:action="android.intent.action.VIEW" android:data="http://droidvn.com/forums/" />
+    	</PreferenceScreen>
 
         <!-- System update settings - launches activity -->
         <Preference android:key="additional_system_update_settings"
